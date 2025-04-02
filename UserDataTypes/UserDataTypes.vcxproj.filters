@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.cpp">
+    <ClCompile Include="UserDataTypes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Student.cpp">
+    <ClCompile Include="Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Student.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

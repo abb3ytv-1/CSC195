@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{af383eec-7712-4eb0-b931-6bdbe082b612}</ProjectGuid>
-    <RootNamespace>HelloWorld</RootNamespace>
+    <ProjectGuid>{40d202c2-1655-496f-afe1-317768b47639}</ProjectGuid>
+    <RootNamespace>UserDataTypes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.cpp" />
-    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="UserDataTypes.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Student.h" />
+    <ClInclude Include="Employee.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
