@@ -13,7 +13,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserDataTypes", "UserDataTy
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GussingGame", "GussingGame\GussingGame.vcxproj", "{89A8C1F2-B3A2-476D-A311-49239762DE61}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containers", "Containers\Containers.vcxproj", "{1A54978A-FBD5-4364-8FB2-DE2283487BA2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containers-classWork", "Containers\Containers.vcxproj", "{1A54978A-FBD5-4364-8FB2-DE2283487BA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainersAssignment", "ContainersAssignment\ContainersAssignment.vcxproj", "{C16864AD-0630-48C0-8028-7F6F2C39D80D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{1A54978A-FBD5-4364-8FB2-DE2283487BA2}.Release|x64.Build.0 = Release|x64
 		{1A54978A-FBD5-4364-8FB2-DE2283487BA2}.Release|x86.ActiveCfg = Release|Win32
 		{1A54978A-FBD5-4364-8FB2-DE2283487BA2}.Release|x86.Build.0 = Release|Win32
+		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Debug|x64.ActiveCfg = Debug|x64
+		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Debug|x64.Build.0 = Debug|x64
+		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Debug|x86.Build.0 = Debug|Win32
+		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Release|x64.ActiveCfg = Release|x64
+		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Release|x64.Build.0 = Release|x64
+		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Release|x86.ActiveCfg = Release|Win32
+		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
