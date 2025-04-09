@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containers-classWork", "Con
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainersAssignment", "ContainersAssignment\ContainersAssignment.vcxproj", "{C16864AD-0630-48C0-8028-7F6F2C39D80D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointers", "pointers\pointers.vcxproj", "{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Release|x64.Build.0 = Release|x64
 		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Release|x86.ActiveCfg = Release|Win32
 		{C16864AD-0630-48C0-8028-7F6F2C39D80D}.Release|x86.Build.0 = Release|Win32
+		{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}.Debug|x64.ActiveCfg = Debug|x64
+		{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}.Debug|x64.Build.0 = Debug|x64
+		{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}.Debug|x86.Build.0 = Debug|Win32
+		{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}.Release|x64.ActiveCfg = Release|x64
+		{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}.Release|x64.Build.0 = Release|x64
+		{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}.Release|x86.ActiveCfg = Release|Win32
+		{6A8F3D2C-EDFA-4115-95AD-704338CFFEDB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
