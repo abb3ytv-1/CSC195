@@ -1,64 +1,60 @@
 #include <iostream>
 using namespace std;
-
-void modifyValues(int* pointerParam, int& refParam);
-
+struct Person
+{
+	char name[32];
+	int id;
+};
 int main()
 {
-    int num1 = 0;
-    int num2 = 0;
-    int* dynamicArray = nullptr;
-
-    int* ptrToInt = &num1;
-    *ptrToInt = 10;
-
-    int& refToInt = num2;
-    refToInt = 20;
-
-    int* ptrToDynamicInt = new int;
-    *ptrToDynamicInt = 30;
-
-    /*
-    Key differences:
-    - Pointers can be reassigned, references cannot
-    - Pointers can be nullptr, references must always refer to valid objects
-    - Pointers use -> operator, references use . operator
-    - Pointer syntax uses *, reference syntax uses &
-    */
-
-    dynamicArray = new int[5];
-    for (int i = 0; i < 5; i++) {
-        dynamicArray[i] = i + 1;
-    }
-    delete[] dynamicArray;
-
-    modifyValues(ptrToInt, refToInt);
-
-    delete ptrToDynamicInt;
-
-    cout << "=== Program Output ===" << endl;
-    cout << "num1: " << num1 << endl;                   
-    cout << "num2: " << num2 << endl;
-    cout << "Dynamic value before deletion: 30" << endl;
-
-
-    /*
-    1. After calling modifyValues:
-       - *ptrToInt becomes 11 (original num1 modified through pointer)
-       - refToInt becomes 21 (original num2 modified through reference)
-
-    2. Before deletion: *ptrToDynamicInt was 30
-       After deletion: Accessing *ptrToDynamicInt becomes undefined behavior
-       (program might crash or show garbage value)
-
-    3. The first element of dynamicArray was 1 before deletion
-       (array was initialized with values 1-5)
-    */
-
-    return 0;
-}
-
-void modifyValues(int* pointerParam, int& refParam) {
-    (*pointerParam)++;  
-    refParam++;         
+	// ** REFERENCE **
+	//
+	// declare an int variable and set the value to some number (less than 10)
+	// declare a int reference and set it to the int variable above
+	// output the int variable
+	// set the int reference to some number
+	// output the int variable
+	// what happened to the int variable when the reference was changed? (insert
+	//answer)
+	// output the address of the int variable
+	// output the address of the int reference
+	// are the addresses the same or different? (insert answer)
+	// ** REFERENCE PARAMETER **
+	//
+	// create a function above main() called Square that takes in an int
+	//parameter
+	// in the function, multiply the int parameter by itself and assign it back
+	//to the parameter(i = i * i)
+	// call the Square function with the int variable created in the REFERENCE
+	//section
+	// output the int variable to the console
+	// !! notice how the variable has not changed, this is because we only passed
+	//the value to the function !!
+	// change the Square function to take a int reference
+	// !! notice how the calling variable has now changed, this is because we
+	//'passed by reference' !!
+	// !! when a function takes a reference parameter, any changes to the
+	//parameter changes the calling variable ""
+	// ** POINTER VARIABLE **
+	//
+	// declare an int pointer, set it to nullptr (it points to nothing)
+	// set the int pointer to the address of the int variable created in the
+	//REFERENCE section
+	// output the value of the pointer
+	// what is this address that the pointer is pointing to? (insert answer)
+	// output the value of the object the pointer is pointing to (dereference the
+	//pointer)
+	// ** POINTER PARAMETER **
+	//
+	// create a function above main() called Double that takes in an int pointer
+	//parameter
+	// in the function, multiply the int pointer parameter by 2 and assign it
+	//back to the parameter(i = i * 2)
+	// !! make sure to dereference the pointer to set the value and not set the
+	//address !!
+	// call the Double function with the pointer created in the POINTER VARIABLE
+	//sections
+	// output the dereference pointer
+	// output the int variable created in the REFERENCE section
+	// did the int variable's value change when using the pointer?
 }
